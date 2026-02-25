@@ -1,0 +1,25 @@
+@import "tailwindcss";
+
+@font-face {
+  font-family: "Glitch Goblin";
+  src: url("/fonts/GlitchGoblin.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@layer base {
+
+  h1,
+  h2,
+  h3,
+  h4,
+  h5,
+  h6 {
+    font-family: "Glitch Goblin", sans-serif;
+    letter-spacing: 2px;
+  }
+}
+
+.font-glitch {
+  font-family: "Glitch Goblin", sans-serif;
+}
